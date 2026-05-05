@@ -1,0 +1,531 @@
+{
+    "mcp-maven-deps": [
+        "get_latest_release"
+    ],
+    "clojars-deps-server": [
+        "get_clojars_latest_version",
+        "get_clojars_history"
+    ],
+    "@wonderwhy-er/desktop-commander": [
+        "read_file",
+        "write_file",
+        "list_directory"
+    ],
+    "pantheon-mcp": [
+        "search_agents",
+        "get_agent",
+        "list_agents"
+    ],
+    "mcp-shrimp-task-manager": [
+        "plan_task",
+        "analyze_task",
+        "split_tasks",
+        "process_thought"
+    ],
+    "time-mcp": [
+        "current_time",
+        "convert_time",
+        "get_week_year"
+    ],
+    "mcp-filesystem-server": [
+        "read_multiple_files",
+        "write_file",
+        "read_file",
+        "list_directory"
+    ],
+    "mcp-sequentialthinking-tools": [
+        "sequentialthinking_tools"
+    ],
+    "@nekzus/npm-sentinel-mcp": [
+        "npmVulnerabilities",
+        "npmDeps",
+        "npmLatest",
+        "npmLicenseCompatibility"
+    ],
+    "@executeautomation/playwright-mcp-server": [
+        "playwright_navigate",
+        "playwright_screenshot",
+        "playwright_close"
+    ],
+    "@agent-infra/mcp-server-commands": [
+        "run_process"
+    ],
+    "weather": [
+        "get_weather_by_city"
+    ],
+    "mcp-tasks": [
+        "tasks_setup",
+        "tasks_add",
+        "tasks_search",
+        "tasks_update"
+    ],
+    "math-mcp": [
+        "evaluate",
+        "validate_syntax"
+    ],
+    "@modelcontextprotocol/server-filesystem": [
+        "search_files",
+        "read_text_file"
+    ],
+    "@kazuph/mcp-taskmanager": [
+        "request_planning",
+        "get_next_task",
+        "mark_task_done"
+    ],
+    "time": [
+        "convert_time",
+        "get_current_time"
+    ],
+    "gemini-mcp-tool": [
+        "ask-gemini"
+    ],
+    "derived-mcp-server": [
+        "add_block"
+    ],
+    "@guanxiong/mcp-server-time": [
+        "get_current_time",
+        "get_time_info"
+    ],
+    "metatag-genie": [
+        "writeImageMetadata"
+    ],
+    "qr-mcp-service": [
+        "generate_qr_code"
+    ],
+    "mcp-server-commands": [
+        "run_process"
+    ],
+    "mcp-calculator": [
+        "subtract",
+        "compound_interest",
+        "loan_payment"
+    ],
+    "mcp-weather-demo": [
+        "get-forecast",
+        "get-alerts"
+    ],
+    "@pimzino/agentic-tools-mcp": [
+        "create_project",
+        "create_task",
+        "list_projects",
+        "parse_prd",
+        "list_tasks",
+        "analyze_task_complexity",
+        "create_memory"
+    ],
+    "@modelcontextprotocol/server-sequential-thinking": [
+        "sequentialthinking"
+    ],
+    "@primeng/mcp": [
+        "suggest_component",
+        "get_component_props",
+        "get_usage_example"
+    ],
+    "slidev-mcp": [
+        "create_slidev",
+        "add_page",
+        "make_cover",
+        "create_bulk_slides",
+        "apply_theme"
+    ],
+    "dexpaprika-mcp": [
+        "getNetworks",
+        "search",
+        "getTokenPools",
+        "getPoolOHLCV"
+    ],
+    "@henkey/postgres-mcp-server": [
+        "pg_manage_schema",
+        "pg_execute_mutation",
+        "pg_execute_query"
+    ],
+    "@antv/mcp-server-chart": [
+        "generate_line_chart",
+        "generate_column_chart",
+        "generate_pie_chart",
+        "generate_district_map",
+        "generate_bar_chart"
+    ],
+    "duckpond-mcp-server": [
+        "execute",
+        "query"
+    ],
+    "@hugeicons/mcp-server": [
+        "search_icons",
+        "get_platform_usage"
+    ],
+    "@primevue/mcp": [
+        "get_component",
+        "get_usage_example",
+        "get_component_props"
+    ],
+    "@next-ai-drawio/mcp-server": [
+        "start_session",
+        "create_new_diagram",
+        "export_diagram"
+    ],
+    "word-document-server": [
+        "get_document_text"
+    ],
+    "@pinepaper.studio/mcp-server": [
+        "pinepaper_agent_start_job",
+        "pinepaper_agent_batch_execute",
+        "pinepaper_agent_end_job"
+    ],
+    "@jzone-mcp/antd-components-mcp": [
+        "get-component-docs",
+        "list-component-examples"
+    ],
+    "plantuml-mcp-server": [
+        "generate_plantuml_diagram"
+    ],
+    "@remotion/mcp": [
+        "remotion-documentation"
+    ],
+    "meme-mcp": [
+        "generateMeme"
+    ],
+    "supergateway": [
+        "lol_get_champion_analysis",
+        "lol_get_lane_matchup_guide",
+        "lol_list_champion_leaderboard"
+    ],
+    "edgeone-pages-mcp": [
+        "deploy_html"
+    ],
+    "wikipedia-mcp": [
+        "search"
+    ],
+    "basic-memory": [
+        "write_note",
+        "list_memory_projects",
+        "recent_activity",
+        "read_note",
+        "search_notes"
+    ],
+    "@su-record/hi-gcloud": [
+        "gcp_run_status"
+    ],
+    "@opentofu/opentofu-mcp-server": [
+        "search-opentofu-registry",
+        "get-module-details",
+        "get-resource-docs"
+    ],
+    "@upstash/context7-mcp": [
+        "resolve-library-id",
+        "query-docs"
+    ],
+    "@itseasy21/mcp-knowledge-graph": [
+        "create_entities",
+        "create_relations",
+        "add_observations"
+    ],
+    "mcp-deepwiki": [
+        "deepwiki_fetch"
+    ],
+    "mcp-docs-service": [
+        "create_folder",
+        "write_document",
+        "create_documentation_section",
+        "list_documents",
+        "check_documentation_health",
+        "validate_documentation_links"
+    ],
+    "swiftipedia-mcp-server": [
+        "search_symbols",
+        "get_examples"
+    ],
+    "@cablate/mcp-doc-forge": [
+        "pdf_splitter",
+        "pdf_merger",
+        "document_reader"
+    ],
+    "mcp-simple-arxiv": [
+        "search_papers",
+        "get_paper_data"
+    ],
+    "@puchunjie/doc-tools-mcp": [
+        "create_document",
+        "add_paragraph",
+        "add_table"
+    ],
+    "@modelcontextprotocol/server-memory": [
+        "create_entities",
+        "create_relations"
+    ],
+    "giisp-openlibrary-mcp": [
+        "searchBooks"
+    ],
+    "coffee-mcp-agent": [
+        "orderCoffee",
+        "queryCafeAndProducts"
+    ],
+    "12306-mcp": [
+        "get-current-date",
+        "get-station-code-of-citys",
+        "get-tickets"
+    ],
+    "mcp-tung-shing": [
+        "get-tung-shing"
+    ],
+    "metmuseum-mcp": [
+        "search-museum-objects",
+        "get-museum-object"
+    ],
+    "@sylphx/pdf-reader-mcp": [
+        "read_pdf"
+    ],
+    "mcp-knowledge-graph": [
+        "create_entities",
+        "create_relations",
+        "aim_memory_store",
+        "aim_memory_link"
+    ],
+    "@sylphlab/pdf-reader-mcp": [
+        "read_pdf"
+    ],
+    "@voltagent/docs-mcp": [
+        "search_voltagent_docs",
+        "search_voltagent_examples"
+    ],
+    "ygocdb-mcp-server": [
+        "search_cards",
+        "get_card_by_id",
+        "get_card_image"
+    ],
+    "@jinzcdev/leetcode-mcp-server": [
+        "get_daily_challenge",
+        "search_problems"
+    ],
+    "@tsmztech/mcp-server-salesforce": [
+        "salesforce_search_all"
+    ],
+    "osm-mcp-server": [
+        "geocode_address"
+    ],
+    "artic-mcp": [
+        "search-by-title",
+        "get-artwork-by-id"
+    ],
+    "bazi-mcp": [
+        "getBaziDetail",
+        "getChineseCalendar"
+    ],
+    "saleskit-mcp": [
+        "clientOcrEntry"
+    ],
+    "claude-faf-mcp": [
+        "faf_init",
+        "faf_read",
+        "faf_list",
+        "faf_check",
+        "faf_status",
+        "faf_score",
+        "faf_enhance",
+        "faf_readme",
+        "faf_sync",
+        "faf_auto"
+    ],
+    "mcp-ai-agent-guidelines": [
+        "speckit-generator",
+        "security-hardening-prompt-builder",
+        "architecture-design-prompt-builder",
+        "hierarchical-prompt-builder",
+        "documentation-generator-prompt-builder"
+    ],
+    "kitty-coffee-test": [
+        "queryCafeAndProducts",
+        "orderCoffee"
+    ],
+    "@j0kz/smart-reviewer-mcp": [
+        "batch_review",
+        "apply_auto_fixes",
+        "review_file"
+    ],
+    "@aashari/boilerplate-mcp-server": [
+        "ip_get_details"
+    ],
+    "@regle/mcp-server": [
+        "regle-list-documentation",
+        "regle-get-documentation"
+    ],
+    "@veloxts/mcp": [
+        "velox_generate"
+    ],
+    "calculator": [
+        "calculate"
+    ],
+    "original_from_tina": [
+        "queryCafeAndProducts",
+        "orderCoffee"
+    ],
+    "@likec4/mcp": [
+        "list-projects",
+        "read-project-summary",
+        "search-element"
+    ],
+    "malicious-mcp-server": [
+        "messageFormatter",
+        "customerDataProvider"
+    ],
+    "fetcher-mcp": [
+        "fetch_url"
+    ],
+    "@botanicastudios/crossref-mcp": [
+        "searchByTitle",
+        "getWorkByDOI"
+    ],
+    "docuking-mcp": [
+        "docuking_talkplan",
+        "docuking_todo",
+        "docuking_push"
+    ],
+    "mcp-trends-hub": [
+        "get_juejin_article_rank",
+        "get_36kr_trending",
+        "get_theverge_news",
+        "get_infoq_news"
+    ],
+    "@nekzus/mcp-server": [
+        "npmLatest",
+        "npmDeps",
+        "npmVulnerabilities",
+        "npmTypes",
+        "npmRepoStats",
+        "npmScore",
+        "npmCompare",
+        "npmTrends"
+    ],
+    "fetch-mcp": [
+        "fetch_url"
+    ],
+    "ppt": [
+        "open_presentation",
+        "set_core_properties",
+        "save_presentation",
+        "create_presentation",
+        "add_slide",
+        "manage_text",
+        "add_bullet_points",
+        "add_chart"
+    ],
+    "mcp-image-extractor": [
+        "extract_image_from_file"
+    ],
+    "@wangshunnn/bilibili-mcp-server": [
+        "search_videos",
+        "get_video_info"
+    ],
+    "@andrebuzeli/spec-mcp-tools": [
+        "spec-project",
+        "spec-tasks",
+        "spec-requirements"
+    ],
+    "@rtuin/mcp-mermaid-validator": [
+        "validateMermaid"
+    ],
+    "@umengfe/mcp-server-chart": [
+        "generate_flow_diagram",
+        "generate_bar_chart",
+        "generate_district_map",
+        "generate_area_chart",
+        "generate_column_chart",
+        "generate_line_chart",
+        "generate_pie_chart",
+        "generate_organization_chart",
+        "generate_dual_axes_chart"
+    ],
+    "flowbite-mcp": [
+        "generate-theme"
+    ],
+    "mermaid-mcp-server": [
+        "get_diagram_examples",
+        "get_diagram"
+    ],
+    "@sparrowengg/twigs-ai-mcp": [
+        "get_figma_screenshot",
+        "get_figma_json",
+        "get_twigs_component_docs"
+    ],
+    "mcp-echarts": [
+        "generate_line_chart",
+        "generate_bar_chart"
+    ],
+    "@magicuidesign/mcp": [
+        "getUIComponents",
+        "getSpecialEffects",
+        "getTextAnimations"
+    ],
+    "@j0kz/orchestrator-mcp": [
+        "run_workflow",
+        "run_sequence"
+    ],
+    "@aiuluna/knowledge-graph-mcp": [
+        "create_graph",
+        "add_node",
+        "add_edge",
+        "publish_graph",
+        "save_resource"
+    ],
+    "@allpepper/memory-bank-mcp": [
+        "list_projects"
+    ],
+    "@pollinations/model-context-protocol": [
+        "generateImage",
+        "generateImageUrl",
+        "listImageModels",
+        "generateText"
+    ],
+    "nfty-mcp-server": [
+        "send-ntfy"
+    ],
+    "pabal-web-mcp": [
+        "create-blog-html",
+        "search-app"
+    ],
+    "@bharathvaj/whois-mcp": [
+        "whois_domain"
+    ],
+    "@assistant-ui/mcp-docs-server": [
+        "assistantUIDocs",
+        "assistantUIExamples"
+    ],
+    "@negokaz/excel-mcp-server": [
+        "excel_describe_sheets",
+        "excel_read_sheet"
+    ],
+    "@driflyte/mcp-server": [
+        "list-topics",
+        "search"
+    ],
+    "@knip/mcp": [
+        "knip-run"
+    ],
+    "@dooi/context101": [
+        "searchCourses",
+        "getDocs"
+    ],
+    "mcp-server-code-runner": [
+        "run-code"
+    ],
+    "@googlemaps/code-assist-mcp": [
+        "retrieve-instructions",
+        "retrieve-google-maps-platform-docs"
+    ],
+    "@heroui/react-mcp": [
+        "list_components",
+        "get_component_docs"
+    ],
+    "xcomet-mcp-server": [
+        "xcomet_evaluate"
+    ],
+    "@microsoft/m365agentstoolkit-mcp": [
+        "get_knowledge"
+    ],
+    "@prismicio/mcp-server": [
+        "how_to_model_slice"
+    ],
+    "mindmap": [
+        "convert_markdown_to_mindmap"
+    ]
+}

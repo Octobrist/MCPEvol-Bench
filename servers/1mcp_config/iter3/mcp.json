@@ -1,0 +1,1159 @@
+{
+  "mcpServers": {
+    "12306-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/12306-mcp/./build/index.js"
+      ]
+    },
+    "mcp-deepwiki": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-deepwiki"
+      ]
+    },
+    "howtocook-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "howtocook-mcp"
+      ]
+    },
+    "@modelcontextprotocol/server-sequential-thinking": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@modelcontextprotocol/server-sequential-thinking/dist/index.js"
+      ]
+    },
+    "@guanxiong/mcp-server-time": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@guanxiong/mcp-server-time/./index.js"
+      ]
+    },
+    "time": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-time",
+        "--local-timezone=America/New_York"
+      ]
+    },
+    "@modelcontextprotocol/server-memory": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@modelcontextprotocol/server-memory/dist/index.js"
+      ]
+    },
+    "@negokaz/excel-mcp-server": {
+      "command": "npx",
+      "args": [
+        "--yes",
+        "@negokaz/excel-mcp-server"
+      ],
+      "env": {
+        "EXCEL_MCP_PAGING_CELLS_LIMIT": "4000"
+      }
+    },
+    "mcp-trends-hub": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/mcp-trends-hub/./dist/index.cjs"
+      ]
+    },
+    "@antv/mcp-server-chart": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@antv/mcp-server-chart"
+      ]
+    },
+    "@executeautomation/playwright-mcp-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@executeautomation/playwright-mcp-server/dist/index.js"
+      ]
+    },
+    "@upstash/context7-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@upstash/context7-mcp/dist/index.js"
+      ]
+    },
+    "bazi-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "bazi-mcp"
+      ]
+    },
+    "@cablate/mcp-doc-forge": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cablate/mcp-doc-forge"
+      ]
+    },
+    "wikipedia-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "wikipedia-mcp"
+      ]
+    },
+    "mcp-crypto-price": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-crypto-price"
+      ]
+    },
+    "@sylphlab/pdf-reader-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@sylphlab/pdf-reader-mcp"
+      ],
+      "name": "PDF Reader (npx)"
+    },
+    "shadcn-ui-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "shadcn-ui-mcp-server"
+      ]
+    },
+    "@bharathvaj/whois-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@bharathvaj/whois-mcp/dist/index.js"
+      ]
+    },
+    "ygocdb-mcp-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/ygocdb-mcp-server/dist/index.js"
+      ]
+    },
+    "@rtuin/mcp-mermaid-validator": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@rtuin/mcp-mermaid-validator/dist/main.js"
+      ]
+    },
+    "@jzone-mcp/antd-components-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@jzone-mcp/antd-components-mcp/dist/cli.js"
+      ]
+    },
+    "@magicuidesign/mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@magicuidesign/mcp/./dist/server.js"
+      ]
+    },
+    "metatag-genie": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "metatag-genie"
+      ]
+    },
+    "@nekzus/mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@nekzus/mcp-server"
+      ]
+    },
+    "mcp-maven-deps": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/mcp-maven-deps/./build/index.js"
+      ]
+    },
+    "supergateway": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "supergateway",
+        "--streamableHttp",
+        "https://mcp-api.op.gg/mcp"
+      ]
+    },
+    "@openbnb/mcp-server-airbnb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@openbnb/mcp-server-airbnb",
+        "--ignore-robots-txt"
+      ]
+    },
+    "@kazuph/mcp-taskmanager": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@kazuph/mcp-taskmanager/dist/index.js"
+      ]
+    },
+    "@wonderwhy-er/desktop-commander": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@wonderwhy-er/desktop-commander"
+      ]
+    },
+    "@hugeicons/mcp-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@hugeicons/mcp-server/build/index.js"
+      ]
+    },
+    "duckduckgo-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "duckduckgo-mcp-server"
+      ]
+    },
+    "metmuseum-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "metmuseum-mcp"
+      ]
+    },
+    "@modelcontextprotocol/server-filesystem": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@modelcontextprotocol/server-filesystem/dist/index.js",
+        "/"
+      ]
+    },
+    "arxiv-mcp-server": {
+      "command": "uv",
+      "args": [
+        "tool",
+        "run",
+        "arxiv-mcp-server",
+        "--storage-path",
+        "/path/to/workspace/anotation_path/files"
+      ]
+    },
+    "investor": {
+      "command": "uvx",
+      "args": [
+        "investor-agent"
+      ]
+    },
+    "calculator": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-calculator"
+      ]
+    },
+    "mcp-image-extractor": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-image-extractor"
+      ]
+    },
+    "@karashiiro/exchange-rate-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@karashiiro/exchange-rate-mcp"
+      ]
+    },
+    "mcp-server-code-runner": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-code-runner"
+      ]
+    },
+    "@railway/mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@railway/mcp-server"
+      ]
+    },
+    "next-devtools-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "next-devtools-mcp"
+      ]
+    },
+    "malicious-mcp-server": {
+      "args": [
+        "/path/to/iter3-servers/node_modules/malicious-mcp-server/./dist/index.js"
+      ],
+      "command": "node"
+    },
+    "@regle/mcp-server": {
+      "args": [
+        "/path/to/iter3-servers/node_modules/@regle/mcp-server/./dist/regle-mcp-server.js"
+      ],
+      "command": "node"
+    },
+    "@agent-infra/mcp-server-browser": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@agent-infra/mcp-server-browser"
+      ]
+    },
+    "@macroforge/mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@macroforge/mcp-server"
+      ]
+    },
+    "@knip/mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@knip/mcp/./src/cli.js"
+      ]
+    },
+    "@tsmztech/mcp-server-salesforce": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@tsmztech/mcp-server-salesforce/dist/index.js"
+      ]
+    },
+    "@assistant-ui/mcp-docs-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@assistant-ui/mcp-docs-server"
+      ]
+    },
+    "@pimzino/spec-workflow-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@pimzino/spec-workflow-mcp",
+        "/path/to/workspace/anotation_path"
+      ]
+    },
+    "@pinepaper.studio/mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@pinepaper.studio/mcp-server"
+      ]
+    },
+    "xcomet-mcp-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/xcomet-mcp-server/./dist/index.js"
+      ]
+    },
+    "@next-ai-drawio/mcp-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@next-ai-drawio/mcp-server/./dist/index.js"
+      ]
+    },
+    "git": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-git"
+      ]
+    },
+    "word-document-server": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "office-word-mcp-server",
+        "word_mcp_server"
+      ]
+    },
+    "mindmap": {
+      "command": "uvx",
+      "args": [
+        "mindmap-mcp-server",
+        "--return-type",
+        "html"
+      ]
+    },
+    "osm-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "osm-mcp-server"
+      ]
+    },
+    "mcp-simple-arxiv": {
+      "command": "uvx",
+      "args": [
+        "mcp-simple-arxiv==0.2.3",
+        "mcp-simple-arxiv"
+      ]
+    },
+    "ppt": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "office-powerpoint-mcp-server",
+        "ppt_mcp_server"
+      ]
+    },
+    "basic-memory": {
+      "command": "uvx",
+      "args": [
+        "basic-memory",
+        "mcp"
+      ]
+    },
+    "plantuml-mcp-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/plantuml-mcp-server/dist/plantuml-mcp-server.js"
+      ]
+    },
+    "mp3-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mp3-mcp-server"
+      ]
+    },
+    "@microsoft/m365agentstoolkit-mcp": {
+      "args": [
+        "/path/to/iter3-servers/node_modules/@microsoft/m365agentstoolkit-mcp/./dist/index.js"
+      ],
+      "command": "node"
+    },
+    "maya-mcp-server": {
+      "command": "npx",
+      "args": [
+        "--yes",
+        "maya-mcp-server"
+      ]
+    },
+    "gemini-mcp-tool": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "gemini-mcp-tool"
+      ]
+    },
+    "@nilsir/mcp-server-mysql": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@nilsir/mcp-server-mysql"
+      ],
+      "env": {
+        "MYSQL_HOST": "localhost",
+        "MYSQL_PORT": "3305",
+        "MYSQL_USER": "root",
+        "MYSQL_PASSWORD": "123456",
+        "MYSQL_DATABASE": "mydb",
+        "MYSQL_ALLOW_INSERT": "true",
+        "MYSQL_ALLOW_UPDATE": "true",
+        "MYSQL_ALLOW_DELETE": "true"
+      }
+    },
+    "@opentofu/opentofu-mcp-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@opentofu/opentofu-mcp-server/dist/index.js"
+      ]
+    },
+    "@agent-infra/mcp-server-commands": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@agent-infra/mcp-server-commands"
+      ]
+    },
+    "@henkey/postgres-mcp-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@henkey/postgres-mcp-server/build/index.js",
+        "--connection-string",
+        "postgresql://postgres:123456@localhost:5432/mydb"
+      ]
+    },
+    "@tejasanik/postgres-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@tejasanik/postgres-mcp-server"
+      ],
+      "env": {
+        "POSTGRES_SERVERS": "{\"dev\":{\"host\":\"localhost\",\"port\":\"5432\",\"username\":\"postgres\",\"password\":\"123456\",\"defaultDatabase\":\"mydb\",\"defaultSchema\":\"public\",\"isDefault\":true,\"ssl\":false,\"context\":\"Development server. Safe for any queries.\"},\"production\":{\"host\":\"localhost\",\"port\":\"5432\",\"username\":\"postgres\",\"password\":\"123456\",\"defaultDatabase\":\"mydb\",\"ssl\":false,\"context\":\"PRODUCTION - Read-only queries only. Always use LIMIT.\"}}"
+      }
+    },
+    "derived-mcp-server": {
+      "args": [
+        "/path/to/iter3-servers/node_modules/derived-mcp-server/./dist/bundle.js"
+      ],
+      "command": "node"
+    },
+    "swiftipedia-mcp-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/swiftipedia-mcp-server/dist/index.js"
+      ]
+    },
+    "@dooi/context101": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@dooi/context101"
+      ]
+    },
+    "duckpond-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "duckpond-mcp-server"
+      ]
+    },
+    "@praha/byethrow-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@praha/byethrow-mcp"
+      ]
+    },
+    "@remotion/mcp": {
+      "args": [
+        "/path/to/iter3-servers/node_modules/@remotion/mcp/./dist/esm/index.mjs"
+      ],
+      "command": "node"
+    },
+    "@googlemaps/code-assist-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@googlemaps/code-assist-mcp/dist/index.js"
+      ]
+    },
+    "@gelenlen/playwright-mcp-server-security": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@gelenlen/playwright-mcp-server-security"
+      ]
+    },
+    "midnight-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "midnight-mcp"
+      ]
+    },
+    "@wordbricks/fetch-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@wordbricks/fetch-mcp"
+      ]
+    },
+    "@oevortex/ddg_search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@oevortex/ddg_search"
+      ]
+    },
+    "@primevue/mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@primevue/mcp"
+      ]
+    },
+    "@progress/telerik-reporting-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@progress/telerik-reporting-mcp"
+      ]
+    },
+    "@idachev/mcp-javadc": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@idachev/mcp-javadc"
+      ]
+    },
+    "@primeng/mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@primeng/mcp/./dist/index.js"
+      ]
+    },
+    "qr-mcp-service": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/qr-mcp-service/./dist/index.js"
+      ]
+    },
+    "@pollinations/model-context-protocol": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@pollinations/model-context-protocol/./pollinations-mcp.js"
+      ]
+    },
+    "mcp-postgres-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-postgres-server"
+      ],
+      "env": {
+        "PG_HOST": "localhost",
+        "PG_PORT": "5432",
+        "PG_USER": "postgres",
+        "PG_PASSWORD": "123456",
+        "PG_DATABASE": "mydb"
+      }
+    },
+    "@gongrzhe/quickchart-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@gongrzhe/quickchart-mcp-server"
+      ]
+    },
+    "@heroui/react-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@heroui/react-mcp/dist/stdio.js"
+      ]
+    },
+    "@likec4/mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@likec4/mcp"
+      ],
+      "env": {
+        "LIKEC4_WORKSPACE": "/path/to/workspace/anotation_path"
+      }
+    },
+    "mcp-weather-demo": {
+      "args": [
+        "/path/to/iter3-servers/node_modules/mcp-weather-demo/./bin/weather.js"
+      ],
+      "command": "node"
+    },
+    "weather": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://gh-proxy.org/github.com/microagents/mcp-weather-free.git",
+        "mcp-weather-free"
+      ]
+    },
+    "@veloxts/mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@veloxts/mcp"
+      ]
+    },
+    "@prismicio/mcp-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@prismicio/mcp-server/./bin/stdio.js"
+      ]
+    },
+    "@taiga-ui/mcp": {
+      "command": "npx",
+      "args": [
+        "@taiga-ui/mcp",
+        "--source-url=https://taiga-ui.dev/llms-full.txt"
+      ]
+    },
+    "@voltagent/docs-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@voltagent/docs-mcp/dist/index.js"
+      ]
+    },
+    "@sylphx/pdf-reader-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@sylphx/pdf-reader-mcp/./dist/index.js"
+      ]
+    },
+    "docuking-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/docuking-mcp/./index.js"
+      ]
+    },
+    "@nbakka/mcp-appium": {
+      "args": [
+        "-y",
+        "@nbakka/mcp-appium"
+      ],
+      "command": "npx"
+    },
+    "pabal-web-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/pabal-web-mcp/dist/bin/mcp-server.js"
+      ]
+    },
+    "mcp-ai-agent-guidelines": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/mcp-ai-agent-guidelines/dist/index.js"
+      ]
+    },
+    "bytefun-ai-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "bytefun-ai-mcp"
+      ]
+    },
+    "saleskit-mcp": {
+      "args": [
+        "/path/to/iter3-servers/node_modules/saleskit-mcp/./server.js"
+      ],
+      "command": "node"
+    },
+    "@j0kz/smart-reviewer-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@j0kz/smart-reviewer-mcp/dist/mcp-server.js"
+      ]
+    },
+    "nfty-mcp-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/nfty-mcp-server/src/server.js",
+        "--yes"
+      ]
+    },
+    "@nekzus/npm-sentinel-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@nekzus/npm-sentinel-mcp"
+      ]
+    },
+    "@turbot/steampipe-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@turbot/steampipe-mcp"
+      ]
+    },
+    "coffee-mcp-agent": {
+      "args": [
+        "/path/to/iter3-servers/node_modules/coffee-mcp-agent/dist/coffee-agent.js"
+      ],
+      "command": "node"
+    },
+    "original_from_tina": {
+      "args": [
+        "/path/to/iter3-servers/node_modules/original_from_tina/dist/coffee-agent.js"
+      ],
+      "command": "node"
+    },
+    "kitty-coffee-test": {
+      "args": [
+        "/path/to/iter3-servers/node_modules/kitty-coffee-test/dist/coffee-agent.js"
+      ],
+      "command": "node"
+    },
+    "@umengfe/mcp-server-chart": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@umengfe/mcp-server-chart"
+      ]
+    },
+    "@j0kz/orchestrator-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@j0kz/orchestrator-mcp/dist/mcp-server.js"
+      ]
+    },
+    "@sparrowengg/twigs-ai-mcp": {
+      "args": [
+        "-y",
+        "@sparrowengg/twigs-ai-mcp"
+      ],
+      "command": "npx"
+    },
+    "@andrebuzeli/spec-mcp-tools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@andrebuzeli/spec-mcp-tools"
+      ]
+    },
+    "@pimzino/agentic-tools-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@pimzino/agentic-tools-mcp/dist/index.js"
+      ]
+    },
+    "@allpepper/memory-bank-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@allpepper/memory-bank-mcp"
+      ]
+    },
+    "@iress-oss/ids-mcp-server": {
+      "args": [
+        "-y",
+        "@iress-oss/ids-mcp-server"
+      ],
+      "command": "npx"
+    },
+    "@aashari/boilerplate-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@aashari/boilerplate-mcp-server"
+      ]
+    },
+    "@jinzcdev/leetcode-mcp-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@jinzcdev/leetcode-mcp-server/build/index.js",
+        "--site",
+        "global"
+      ]
+    },
+    "mcp-server-commands": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/mcp-server-commands/./build/index.js"
+      ]
+    },
+    "vrchat-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "vrchat-mcp"
+      ]
+    },
+    "mcp-mermaid": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-mermaid"
+      ]
+    },
+    "mcp-server-mysql": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-mysql"
+      ],
+      "env": {
+        "MYSQL_HOST": "127.0.0.1",
+        "MYSQL_PORT": "3305",
+        "MYSQL_USER": "root",
+        "MYSQL_PASS": "123456",
+        "MYSQL_DB": "mydb"
+      }
+    },
+    "claude-faf-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "claude-faf-mcp"
+      ]
+    },
+    "@flipt-io/mcp-server-flipt": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@flipt-io/mcp-server-flipt"
+      ]
+    },
+    "twitterapi-io-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "twitterapi-io-mcp"
+      ]
+    },
+    "pantheon-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "pantheon-mcp"
+      ]
+    },
+    "flowbite-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/flowbite-mcp/build/index.js"
+      ]
+    },
+    "dexpaprika-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "dexpaprika-mcp"
+      ]
+    },
+    "@driflyte/mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@driflyte/mcp-server"
+      ]
+    },
+    "mcp-echarts": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/mcp-echarts/./build/index.js"
+      ]
+    },
+    "clojars-deps-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/clojars-deps-server/./build/index.js"
+      ]
+    },
+    "interactive-mcp": {
+      "args": [
+        "-y",
+        "interactive-mcp"
+      ],
+      "command": "npx"
+    },
+    "@just-every/mcp-read-website-fast": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@just-every/mcp-read-website-fast"
+      ]
+    },
+    "@reuvenorg/shadcn-registry-manager": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@reuvenorg/shadcn-registry-manager"
+      ]
+    },
+    "mcp-tasks": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-tasks"
+      ]
+    },
+    "@su-record/hi-gcloud": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@su-record/hi-gcloud/dist/index.js"
+      ]
+    },
+    "@byronwade/memoria": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@byronwade/memoria"
+      ]
+    },
+    "@aiuluna/knowledge-graph-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@aiuluna/knowledge-graph-mcp"
+      ]
+    },
+    "mcp-server-weibo": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-weibo"
+      ]
+    },
+    "fetch-mcp": {
+      "args": [
+        "/path/to/iter3-servers/node_modules/fetch-mcp/./cli.js"
+      ],
+      "command": "node"
+    },
+    "@botanicastudios/crossref-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@botanicastudios/crossref-mcp/./mcp-server.js"
+      ]
+    },
+    "mcp-docs-service": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-docs-service",
+        "--create-dir"
+      ]
+    },
+    "@wangshunnn/bilibili-mcp-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@wangshunnn/bilibili-mcp-server/dist/index.js"
+      ]
+    },
+    "edgeone-pages-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "edgeone-pages-mcp"
+      ]
+    },
+    "mcp-security-audit": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-security-audit"
+      ]
+    },
+    "mcp-shrimp-task-manager": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-shrimp-task-manager"
+      ]
+    },
+    "mermaid-mcp-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/mermaid-mcp-server/./build/index.js"
+      ]
+    },
+    "slidev-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/slidev-mcp/dist/index.js"
+      ]
+    },
+    "@kazuph/mcp-youtube": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@kazuph/mcp-youtube"
+      ]
+    },
+    "@xiaolaa2/ableton-copilot-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@xiaolaa2/ableton-copilot-mcp"
+      ],
+      "env": {
+        "BASE_PATH": "/path/to/workspace/anotation_path"
+      }
+    },
+    "ableton-copilot-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "ableton-copilot-mcp"
+      ]
+    },
+    "@puchunjie/doc-tools-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@puchunjie/doc-tools-mcp"
+      ]
+    },
+    "mcp-filesystem-server": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/mcp-filesystem-server/./server.js"
+      ]
+    },
+    "wuwa-mcp": {
+      "command": "uvx",
+      "args": [
+        "wuwa-mcp-server"
+      ]
+    },
+    "mcp-knowledge-graph": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/mcp-knowledge-graph/dist/index.js",
+        "--memory-path",
+        "/path/to/workspace/anotation_path/.aim"
+      ]
+    },
+    "@itseasy21/mcp-knowledge-graph": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/@itseasy21/mcp-knowledge-graph/./dist/index.js"
+      ]
+    },
+    "time-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "time-mcp"
+      ]
+    },
+    "mcp-tung-shing": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/mcp-tung-shing/./dist/index.cjs"
+      ]
+    },
+    "artic-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "artic-mcp"
+      ]
+    },
+    "mcp-calculator": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/mcp-calculator/./build/index.js"
+      ]
+    },
+    "giisp-openlibrary-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/giisp-openlibrary-mcp/server.js"
+      ]
+    },
+    "meme-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/meme-mcp/dist/index.js"
+      ]
+    },
+    "mcp-sequentialthinking-tools": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/mcp-sequentialthinking-tools/./dist/index.js"
+      ],
+      "env": {
+        "MAX_HISTORY_SIZE": "1000"
+      }
+    },
+    "math-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/iter3-servers/node_modules/math-mcp/dist/index.js"
+      ]
+    },
+    "fetcher-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "fetcher-mcp"
+      ]
+    }
+  }
+}

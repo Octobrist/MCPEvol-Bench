@@ -1,0 +1,472 @@
+{
+  "mcp-maven-deps": {
+    "get_latest_release": "node_modules/mcp-maven-deps/build/index.js"
+  },
+  "clojars-deps-server": {
+    "get_clojars_latest_version": "node_modules/clojars-deps-server/build/index.js",
+    "get_clojars_history": "node_modules/clojars-deps-server/build/index.js"
+  },
+  "@wonderwhy-er/desktop-commander": {},
+  "pantheon-mcp": {
+    "search_agents": "node_modules/pantheon-mcp/dist/server.js",
+    "get_agent": "node_modules/pantheon-mcp/dist/server.js",
+    "list_agents": "node_modules/pantheon-mcp/dist/server.js"
+  },
+  "mcp-shrimp-task-manager": {
+    "plan_task": [
+      "node_modules/mcp-shrimp-task-manager/dist/index.js",
+      "node_modules/mcp-shrimp-task-manager/docs/js/i18n.js"
+    ],
+    "analyze_task": "node_modules/mcp-shrimp-task-manager/dist/index.js",
+    "split_tasks": [
+      "node_modules/mcp-shrimp-task-manager/dist/index.js",
+      "node_modules/mcp-shrimp-task-manager/dist/tools/task/listTasks.js"
+    ],
+    "process_thought": "node_modules/mcp-shrimp-task-manager/dist/index.js"
+  },
+  "time-mcp": {
+    "current_time": "node_modules/time-mcp/dist/index.js",
+    "convert_time": "node_modules/time-mcp/dist/index.js",
+    "get_week_year": "node_modules/time-mcp/dist/index.js"
+  },
+  "mcp-filesystem-server": {
+    "read_multiple_files": "node_modules/mcp-filesystem-server/server.js",
+    "write_file": "node_modules/mcp-filesystem-server/server.js",
+    "read_file": "node_modules/mcp-filesystem-server/server.js",
+    "list_directory": "node_modules/mcp-filesystem-server/server.js"
+  },
+  "mcp-sequentialthinking-tools": {
+    "sequentialthinking_tools": [
+      "node_modules/mcp-sequentialthinking-tools/dist/index.js",
+      "node_modules/mcp-sequentialthinking-tools/dist/schema.js"
+    ]
+  },
+  "@nekzus/npm-sentinel-mcp": {
+    "npmVulnerabilities": "node_modules/@nekzus/npm-sentinel-mcp/dist/index.js",
+    "npmDeps": "node_modules/@nekzus/npm-sentinel-mcp/dist/index.js",
+    "npmLatest": "node_modules/@nekzus/npm-sentinel-mcp/dist/index.js",
+    "npmLicenseCompatibility": "node_modules/@nekzus/npm-sentinel-mcp/dist/index.js"
+  },
+  "@executeautomation/playwright-mcp-server": {
+    "playwright_navigate": "node_modules/@executeautomation/playwright-mcp-server/dist/tools/codegen/generator.js",
+    "playwright_screenshot": "node_modules/@executeautomation/playwright-mcp-server/dist/tools/codegen/generator.js"
+  },
+  "@agent-infra/mcp-server-commands": {},
+  "weather": {},
+  "mcp-tasks": {
+    "tasks_setup": "node_modules/mcp-tasks/dist/index.js",
+    "tasks_add": "node_modules/mcp-tasks/dist/index.js",
+    "tasks_update": "node_modules/mcp-tasks/dist/index.js"
+  },
+  "math-mcp": {
+    "validate_syntax": [
+      "node_modules/math-mcp/dist/server.js",
+      "node_modules/math-mcp/dist/tools/definitions.js"
+    ]
+  },
+  "@modelcontextprotocol/server-filesystem": {
+    "search_files": "node_modules/@modelcontextprotocol/server-filesystem/dist/index.js",
+    "read_text_file": "node_modules/@modelcontextprotocol/server-filesystem/dist/index.js"
+  },
+  "@kazuph/mcp-taskmanager": {
+    "request_planning": "node_modules/@kazuph/mcp-taskmanager/dist/index.js",
+    "get_next_task": "node_modules/@kazuph/mcp-taskmanager/dist/index.js",
+    "mark_task_done": "node_modules/@kazuph/mcp-taskmanager/dist/index.js"
+  },
+  "time": {},
+  "gemini-mcp-tool": {},
+  "derived-mcp-server": {
+    "add_block": "node_modules/derived-mcp-server/dist/bundle.js"
+  },
+  "@guanxiong/mcp-server-time": {
+    "get_current_time": "node_modules/@guanxiong/mcp-server-time/index.js",
+    "get_time_info": "node_modules/@guanxiong/mcp-server-time/index.js"
+  },
+  "metatag-genie": {},
+  "qr-mcp-service": {
+    "generate_qr_code": "node_modules/qr-mcp-service/dist/qr-mcp-streamable.js"
+  },
+  "mcp-server-commands": {
+    "run_process": "node_modules/mcp-server-commands/build/tools.js"
+  },
+  "mcp-calculator": {
+    "compound_interest": "node_modules/mcp-calculator/build/modules/financial.js",
+    "loan_payment": "node_modules/mcp-calculator/build/modules/financial.js"
+  },
+  "mcp-weather-demo": {
+    "get-forecast": "node_modules/mcp-weather-demo/build/index.js",
+    "get-alerts": "node_modules/mcp-weather-demo/build/index.js"
+  },
+  "@pimzino/agentic-tools-mcp": {
+    "create_project": [
+      "node_modules/@pimzino/agentic-tools-mcp/dist/server.js",
+      "node_modules/@pimzino/agentic-tools-mcp/dist/features/task-management/tools/projects/create.js"
+    ]
+  },
+  "@modelcontextprotocol/server-sequential-thinking": {
+    "sequentialthinking": "node_modules/@modelcontextprotocol/server-sequential-thinking/dist/index.js"
+  },
+  "@primeng/mcp": {
+    "suggest_component": "node_modules/@primeng/mcp/dist/index.js",
+    "get_component_props": "node_modules/@primeng/mcp/dist/index.js",
+    "get_usage_example": "node_modules/@primeng/mcp/dist/index.js"
+  },
+  "slidev-mcp": {
+    "create_slidev": "node_modules/slidev-mcp/dist/index.js",
+    "add_page": "node_modules/slidev-mcp/dist/index.js",
+    "make_cover": "node_modules/slidev-mcp/dist/index.js",
+    "create_bulk_slides": "node_modules/slidev-mcp/dist/index.js",
+    "apply_theme": "node_modules/slidev-mcp/dist/index.js"
+  },
+  "dexpaprika-mcp": {
+    "getNetworks": [
+      "node_modules/dexpaprika-mcp/src/index.js",
+      "node_modules/dexpaprika-mcp/src/test_methods.js"
+    ],
+    "search": [
+      "node_modules/dexpaprika-mcp/src/index.js",
+      "node_modules/dexpaprika-mcp/src/test_methods.js"
+    ],
+    "getTokenPools": "node_modules/dexpaprika-mcp/src/index.js",
+    "getPoolOHLCV": "node_modules/dexpaprika-mcp/src/index.js"
+  },
+  "@henkey/postgres-mcp-server": {
+    "pg_manage_schema": "node_modules/@henkey/postgres-mcp-server/build/tools/schema.js",
+    "pg_execute_mutation": "node_modules/@henkey/postgres-mcp-server/build/tools/data.js",
+    "pg_execute_query": "node_modules/@henkey/postgres-mcp-server/build/tools/data.js"
+  },
+  "@antv/mcp-server-chart": {},
+  "duckpond-mcp-server": {
+    "query": [
+      "node_modules/duckpond-mcp-server/dist/server.js",
+      "node_modules/duckpond-mcp-server/dist/tools/index.js"
+    ]
+  },
+  "@hugeicons/mcp-server": {
+    "search_icons": "node_modules/@hugeicons/mcp-server/build/index.js",
+    "get_platform_usage": "node_modules/@hugeicons/mcp-server/build/index.js"
+  },
+  "@primevue/mcp": {
+    "get_component": "node_modules/@primevue/mcp/dist/index.js",
+    "get_usage_example": "node_modules/@primevue/mcp/dist/index.js",
+    "get_component_props": "node_modules/@primevue/mcp/dist/index.js"
+  },
+  "@next-ai-drawio/mcp-server": {
+    "start_session": "node_modules/@next-ai-drawio/mcp-server/dist/index.js",
+    "create_new_diagram": "node_modules/@next-ai-drawio/mcp-server/dist/index.js",
+    "export_diagram": "node_modules/@next-ai-drawio/mcp-server/dist/index.js"
+  },
+  "word-document-server": {},
+  "@pinepaper.studio/mcp-server": {},
+  "@jzone-mcp/antd-components-mcp": {
+    "get-component-docs": "node_modules/@jzone-mcp/antd-components-mcp/dist/cli.js",
+    "list-component-examples": "node_modules/@jzone-mcp/antd-components-mcp/dist/cli.js"
+  },
+  "plantuml-mcp-server": {
+    "generate_plantuml_diagram": "node_modules/plantuml-mcp-server/dist/plantuml-mcp-server.js"
+  },
+  "@remotion/mcp": {
+    "remotion-documentation": "node_modules/@remotion/mcp/dist/index.js"
+  },
+  "meme-mcp": {
+    "generateMeme": "node_modules/meme-mcp/dist/index.js"
+  },
+  "supergateway": {},
+  "edgeone-pages-mcp": {
+    "deploy_html": "node_modules/edgeone-pages-mcp/dist/index.js"
+  },
+  "wikipedia-mcp": {
+    "search": "node_modules/wikipedia-mcp/dist/index.js"
+  },
+  "basic-memory": {},
+  "@su-record/hi-gcloud": {
+    "gcp_run_status": [
+      "node_modules/@su-record/hi-gcloud/dist/index.js",
+      "node_modules/@su-record/hi-gcloud/dist/gcp/runStatus.js"
+    ]
+  },
+  "@opentofu/opentofu-mcp-server": {
+    "search-opentofu-registry": "node_modules/@opentofu/opentofu-mcp-server/dist/servers/registry.js",
+    "get-module-details": "node_modules/@opentofu/opentofu-mcp-server/dist/servers/registry.js",
+    "get-resource-docs": "node_modules/@opentofu/opentofu-mcp-server/dist/servers/registry.js"
+  },
+  "@upstash/context7-mcp": {
+    "resolve-library-id": [
+      "node_modules/@upstash/context7-mcp/dist/index.js",
+      "node_modules/@upstash/context7-mcp/dist/lib/api.js"
+    ],
+    "query-docs": "node_modules/@upstash/context7-mcp/dist/index.js"
+  },
+  "@itseasy21/mcp-knowledge-graph": {
+    "create_entities": "node_modules/@itseasy21/mcp-knowledge-graph/dist/index.js",
+    "create_relations": "node_modules/@itseasy21/mcp-knowledge-graph/dist/index.js",
+    "add_observations": "node_modules/@itseasy21/mcp-knowledge-graph/dist/index.js"
+  },
+  "mcp-deepwiki": {},
+  "mcp-docs-service": {
+    "create_folder": "node_modules/mcp-docs-service/dist/index.js",
+    "write_document": "node_modules/mcp-docs-service/dist/index.js",
+    "create_documentation_section": "node_modules/mcp-docs-service/dist/index.js",
+    "list_documents": "node_modules/mcp-docs-service/dist/index.js",
+    "check_documentation_health": "node_modules/mcp-docs-service/dist/index.js",
+    "validate_documentation_links": "node_modules/mcp-docs-service/dist/index.js"
+  },
+  "swiftipedia-mcp-server": {
+    "search_symbols": "node_modules/swiftipedia-mcp-server/dist/index.js",
+    "get_examples": "node_modules/swiftipedia-mcp-server/dist/index.js"
+  },
+  "@cablate/mcp-doc-forge": {},
+  "mcp-simple-arxiv": {},
+  "@puchunjie/doc-tools-mcp": {
+    "create_document": "node_modules/@puchunjie/doc-tools-mcp/dist/server.js",
+    "add_paragraph": "node_modules/@puchunjie/doc-tools-mcp/dist/server.js",
+    "add_table": "node_modules/@puchunjie/doc-tools-mcp/dist/server.js"
+  },
+  "@modelcontextprotocol/server-memory": {
+    "create_entities": "node_modules/@modelcontextprotocol/server-memory/dist/index.js",
+    "create_relations": "node_modules/@modelcontextprotocol/server-memory/dist/index.js"
+  },
+  "giisp-openlibrary-mcp": {
+    "searchBooks": "node_modules/giisp-openlibrary-mcp/server.js"
+  },
+  "coffee-mcp-agent": {
+    "orderCoffee": "node_modules/coffee-mcp-agent/dist/coffee-agent.js",
+    "queryCafeAndProducts": "node_modules/coffee-mcp-agent/dist/coffee-agent.js"
+  },
+  "12306-mcp": {
+    "get-current-date": "node_modules/12306-mcp/build/index.js",
+    "get-station-code-of-citys": "node_modules/12306-mcp/build/index.js",
+    "get-tickets": "node_modules/12306-mcp/build/index.js"
+  },
+  "mcp-tung-shing": {
+    "get-tung-shing": "node_modules/mcp-tung-shing/dist/index.js"
+  },
+  "metmuseum-mcp": {},
+  "@sylphx/pdf-reader-mcp": {
+    "read_pdf": "node_modules/@sylphx/pdf-reader-mcp/dist/index.js"
+  },
+  "mcp-knowledge-graph": {
+    "aim_memory_store": "node_modules/mcp-knowledge-graph/dist/index.js",
+    "aim_memory_link": "node_modules/mcp-knowledge-graph/dist/index.js"
+  },
+  "@sylphlab/pdf-reader-mcp": {
+    "read_pdf": "node_modules/@sylphlab/pdf-reader-mcp/dist/src/handlers/readPdf.js"
+  },
+  "@voltagent/docs-mcp": {
+    "search_voltagent_docs": "node_modules/@voltagent/docs-mcp/dist/index.js",
+    "search_voltagent_examples": "node_modules/@voltagent/docs-mcp/dist/index.js"
+  },
+  "ygocdb-mcp-server": {
+    "search_cards": "node_modules/ygocdb-mcp-server/dist/index.js",
+    "get_card_by_id": "node_modules/ygocdb-mcp-server/dist/index.js",
+    "get_card_image": "node_modules/ygocdb-mcp-server/dist/index.js"
+  },
+  "@jinzcdev/leetcode-mcp-server": {
+    "get_daily_challenge": "node_modules/@jinzcdev/leetcode-mcp-server/build/mcp/tools/problem-tools.js",
+    "search_problems": "node_modules/@jinzcdev/leetcode-mcp-server/build/mcp/tools/problem-tools.js"
+  },
+  "@tsmztech/mcp-server-salesforce": {
+    "salesforce_search_all": [
+      "node_modules/@tsmztech/mcp-server-salesforce/dist/index.js",
+      "node_modules/@tsmztech/mcp-server-salesforce/dist/tools/searchAll.js"
+    ]
+  },
+  "osm-mcp-server": {},
+  "artic-mcp": {},
+  "bazi-mcp": {
+    "getBaziDetail": "node_modules/bazi-mcp/dist/mcp.js"
+  },
+  "saleskit-mcp": {
+    "clientOcrEntry": "node_modules/saleskit-mcp/server.js"
+  },
+  "claude-faf-mcp": {
+    "faf_read": [
+      "node_modules/claude-faf-mcp/dist/src/handlers/tools.js",
+      "node_modules/claude-faf-mcp/dist/src/types/tool-visibility.js"
+    ],
+    "faf_list": [
+      "node_modules/claude-faf-mcp/dist/src/handlers/tools.js",
+      "node_modules/claude-faf-mcp/dist/src/types/tool-visibility.js"
+    ],
+    "faf_check": [
+      "node_modules/claude-faf-mcp/dist/src/handlers/tools.js",
+      "node_modules/claude-faf-mcp/dist/src/types/tool-visibility.js"
+    ],
+    "faf_status": [
+      "node_modules/claude-faf-mcp/dist/src/handlers/tools.js",
+      "node_modules/claude-faf-mcp/dist/src/types/tool-visibility.js"
+    ],
+    "faf_enhance": [
+      "node_modules/claude-faf-mcp/dist/src/handlers/tools.js",
+      "node_modules/claude-faf-mcp/dist/src/types/tool-visibility.js"
+    ],
+    "faf_readme": "node_modules/claude-faf-mcp/dist/src/handlers/tools.js",
+    "faf_sync": [
+      "node_modules/claude-faf-mcp/dist/src/handlers/tools.js",
+      "node_modules/claude-faf-mcp/dist/src/types/tool-visibility.js"
+    ],
+    "faf_auto": [
+      "node_modules/claude-faf-mcp/dist/src/handlers/tools.js",
+      "node_modules/claude-faf-mcp/dist/src/types/tool-visibility.js"
+    ]
+  },
+  "mcp-ai-agent-guidelines": {
+    "speckit-generator": [
+      "node_modules/mcp-ai-agent-guidelines/dist/index.js",
+      "node_modules/mcp-ai-agent-guidelines/dist/tools/speckit-generator.js"
+    ]
+  },
+  "kitty-coffee-test": {
+    "queryCafeAndProducts": "node_modules/kitty-coffee-test/dist/coffee-agent.js",
+    "orderCoffee": "node_modules/kitty-coffee-test/dist/coffee-agent.js"
+  },
+  "@j0kz/smart-reviewer-mcp": {
+    "batch_review": "node_modules/@j0kz/smart-reviewer-mcp/dist/mcp-server.js",
+    "apply_auto_fixes": "node_modules/@j0kz/smart-reviewer-mcp/dist/mcp-server.js",
+    "review_file": "node_modules/@j0kz/smart-reviewer-mcp/dist/mcp-server.js"
+  },
+  "@aashari/boilerplate-mcp-server": {
+    "ip_get_details": "node_modules/@aashari/boilerplate-mcp-server/dist/tools/ipaddress.tool.js"
+  },
+  "@regle/mcp-server": {
+    "regle-list-documentation": "node_modules/@regle/mcp-server/dist/regle-mcp-server.js",
+    "regle-get-documentation": "node_modules/@regle/mcp-server/dist/regle-mcp-server.js"
+  },
+  "@veloxts/mcp": {},
+  "calculator": {},
+  "original_from_tina": {
+    "queryCafeAndProducts": "node_modules/original_from_tina/dist/coffee-agent.js",
+    "orderCoffee": "node_modules/original_from_tina/dist/coffee-agent.js"
+  },
+  "@likec4/mcp": {},
+  "malicious-mcp-server": {
+    "messageFormatter": "node_modules/malicious-mcp-server/dist/index.js",
+    "customerDataProvider": "node_modules/malicious-mcp-server/dist/index.js"
+  },
+  "fetcher-mcp": {},
+  "@botanicastudios/crossref-mcp": {
+    "searchByTitle": [
+      "node_modules/@botanicastudios/crossref-mcp/mcp-server.js",
+      "node_modules/@botanicastudios/crossref-mcp/mcp-server.test.js"
+    ],
+    "getWorkByDOI": [
+      "node_modules/@botanicastudios/crossref-mcp/mcp-server.js",
+      "node_modules/@botanicastudios/crossref-mcp/mcp-server.test.js"
+    ]
+  },
+  "docuking-mcp": {
+    "docuking_talkplan": [
+      "node_modules/docuking-mcp/index.js",
+      "node_modules/docuking-mcp/handlers/docs.js"
+    ]
+  },
+  "mcp-trends-hub": {
+    "get_juejin_article_rank": "node_modules/mcp-trends-hub/dist/index.js",
+    "get_36kr_trending": "node_modules/mcp-trends-hub/dist/index.js",
+    "get_theverge_news": "node_modules/mcp-trends-hub/dist/index.js",
+    "get_infoq_news": "node_modules/mcp-trends-hub/dist/index.js"
+  },
+  "@nekzus/mcp-server": {
+    "npmLatest": "node_modules/@nekzus/mcp-server/dist/index.js",
+    "npmDeps": "node_modules/@nekzus/mcp-server/dist/index.js",
+    "npmVulnerabilities": "node_modules/@nekzus/mcp-server/dist/index.js",
+    "npmTypes": "node_modules/@nekzus/mcp-server/dist/index.js",
+    "npmRepoStats": "node_modules/@nekzus/mcp-server/dist/index.js",
+    "npmScore": "node_modules/@nekzus/mcp-server/dist/index.js",
+    "npmCompare": "node_modules/@nekzus/mcp-server/dist/index.js",
+    "npmTrends": "node_modules/@nekzus/mcp-server/dist/index.js"
+  },
+  "fetch-mcp": {
+    "fetch_url": "node_modules/fetch-mcp/dist/index.js"
+  },
+  "ppt": {},
+  "mcp-image-extractor": {
+    "extract_image_from_file": "node_modules/mcp-image-extractor/dist/index.js"
+  },
+  "@wangshunnn/bilibili-mcp-server": {
+    "search_videos": "node_modules/@wangshunnn/bilibili-mcp-server/dist/tools/search.js",
+    "get_video_info": "node_modules/@wangshunnn/bilibili-mcp-server/dist/tools/video.js"
+  },
+  "@andrebuzeli/spec-mcp-tools": {},
+  "@rtuin/mcp-mermaid-validator": {
+    "validateMermaid": "node_modules/@rtuin/mcp-mermaid-validator/dist/main.js"
+  },
+  "@umengfe/mcp-server-chart": {},
+  "flowbite-mcp": {
+    "generate-theme": "node_modules/flowbite-mcp/build/index.js"
+  },
+  "mermaid-mcp-server": {
+    "get_diagram_examples": "node_modules/mermaid-mcp-server/build/index.js",
+    "get_diagram": "node_modules/mermaid-mcp-server/build/index.js"
+  },
+  "@sparrowengg/twigs-ai-mcp": {},
+  "mcp-echarts": {
+    "generate_line_chart": "node_modules/mcp-echarts/build/tools/line.js",
+    "generate_bar_chart": "node_modules/mcp-echarts/build/tools/bar.js"
+  },
+  "@magicuidesign/mcp": {
+    "getUIComponents": "node_modules/@magicuidesign/mcp/dist/server.js"
+  },
+  "@j0kz/orchestrator-mcp": {
+    "run_workflow": "node_modules/@j0kz/orchestrator-mcp/dist/mcp-server.js",
+    "run_sequence": "node_modules/@j0kz/orchestrator-mcp/dist/mcp-server.js"
+  },
+  "@aiuluna/knowledge-graph-mcp": {
+    "create_graph": "node_modules/@aiuluna/knowledge-graph-mcp/dist/index.js",
+    "add_node": "node_modules/@aiuluna/knowledge-graph-mcp/dist/index.js",
+    "add_edge": "node_modules/@aiuluna/knowledge-graph-mcp/dist/index.js",
+    "publish_graph": "node_modules/@aiuluna/knowledge-graph-mcp/dist/index.js",
+    "save_resource": "node_modules/@aiuluna/knowledge-graph-mcp/dist/index.js"
+  },
+  "@allpepper/memory-bank-mcp": {},
+  "@pollinations/model-context-protocol": {
+    "generateImage": "node_modules/@pollinations/model-context-protocol/src/services/imageService.js",
+    "generateImageUrl": "node_modules/@pollinations/model-context-protocol/src/services/imageService.js",
+    "listImageModels": "node_modules/@pollinations/model-context-protocol/src/services/imageService.js",
+    "generateText": "node_modules/@pollinations/model-context-protocol/src/services/textService.js"
+  },
+  "nfty-mcp-server": {
+    "send-ntfy": "node_modules/nfty-mcp-server/src/server.js"
+  },
+  "pabal-web-mcp": {
+    "create-blog-html": "node_modules/pabal-web-mcp/dist/bin/mcp-server.js",
+    "search-app": "node_modules/pabal-web-mcp/dist/bin/mcp-server.js"
+  },
+  "@bharathvaj/whois-mcp": {
+    "whois_domain": "node_modules/@bharathvaj/whois-mcp/dist/index.js"
+  },
+  "@assistant-ui/mcp-docs-server": {},
+  "@negokaz/excel-mcp-server": {},
+  "@driflyte/mcp-server": {},
+  "@knip/mcp": {
+    "knip-run": [
+      "node_modules/@knip/mcp/src/server.js",
+      "node_modules/@knip/mcp/src/texts.js"
+    ]
+  },
+  "@dooi/context101": {},
+  "mcp-server-code-runner": {
+    "run-code": "node_modules/mcp-server-code-runner/dist/server.js"
+  },
+  "@googlemaps/code-assist-mcp": {
+    "retrieve-instructions": "node_modules/@googlemaps/code-assist-mcp/dist/index.js",
+    "retrieve-google-maps-platform-docs": "node_modules/@googlemaps/code-assist-mcp/dist/index.js"
+  },
+  "@heroui/react-mcp": {
+    "list_components": "node_modules/@heroui/react-mcp/dist/stdio.js",
+    "get_component_docs": "node_modules/@heroui/react-mcp/dist/stdio.js"
+  },
+  "xcomet-mcp-server": {
+    "xcomet_evaluate": "node_modules/xcomet-mcp-server/dist/tools/index.js"
+  },
+  "@microsoft/m365agentstoolkit-mcp": {
+    "get_knowledge": "node_modules/@microsoft/m365agentstoolkit-mcp/dist/index.js"
+  },
+  "@prismicio/mcp-server": {
+    "how_to_model_slice": [
+      "node_modules/@prismicio/mcp-server/dist/server.js",
+      "node_modules/@prismicio/mcp-server/dist/tools/how_to_model_slice.js"
+    ]
+  },
+  "mindmap": {}
+}

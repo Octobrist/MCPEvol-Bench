@@ -1,0 +1,532 @@
+{
+  "categories": [
+    {
+      "name": "Knowledge",
+      "description": "Services for accessing encyclopedias, academic papers, documentation, and general knowledge repositories."
+    },
+    {
+      "name": "Research",
+      "description": "Tools for web search, data fetching, API exploration, and information gathering."
+    },
+    {
+      "name": "Development Tools",
+      "description": "Programming utilities including code execution, testing, version control, and development environment management."
+    },
+    {
+      "name": "Media & Documentation",
+      "description": "Document processing, image handling, video content, diagram generation, and presentation creation tools."
+    },
+    {
+      "name": "Data & Analytics",
+      "description": "Database management, data visualization, mathematical computation, and analytical processing services."
+    },
+    {
+      "name": "Business & Commerce",
+      "description": "E-commerce platforms, sales tools, booking systems, and business workflow automation services."
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "description": "Cloud platform management, deployment services, infrastructure monitoring, and DevOps automation tools."
+    },
+    {
+      "name": "AI & Machine Learning",
+      "description": "AI model integration, memory management, agent orchestration, and machine learning workflow tools."
+    },
+    {
+      "name": "Design & UI Components",
+      "description": "UI component libraries, design system documentation, and design-to-code conversion tools."
+    },
+    {
+      "name": "Specialized Domains",
+      "description": "Domain-specific tools for gaming, music, art, blockchain, geospatial data, and niche applications."
+    }
+  ],
+  "assignments": {
+    "clojars-deps-server": [
+      "Development Tools"
+    ],
+    "@puchunjie/doc-tools-mcp": [
+      "Media & Documentation"
+    ],
+    "@sylphlab/pdf-reader-mcp": [
+      "Media & Documentation"
+    ],
+    "mcp-filesystem-server": [
+      "Development Tools"
+    ],
+    "fetch-mcp": [
+      "Research"
+    ],
+    "@jinzcdev/leetcode-mcp-server": [
+      "Development Tools"
+    ],
+    "gemini-mcp-tool": [
+      "AI & Machine Learning"
+    ],
+    "@turbot/steampipe-mcp": [
+      "Cloud & Infrastructure"
+    ],
+    "@allpepper/memory-bank-mcp": [
+      "AI & Machine Learning"
+    ],
+    "@pollinations/model-context-protocol": [
+      "AI & Machine Learning"
+    ],
+    "@opentofu/opentofu-mcp-server": [
+      "Cloud & Infrastructure"
+    ],
+    "@jzone-mcp/antd-components-mcp": [
+      "Design & UI Components"
+    ],
+    "slidev-mcp": [
+      "Media & Documentation"
+    ],
+    "@itseasy21/mcp-knowledge-graph": [
+      "AI & Machine Learning"
+    ],
+    "bazi-mcp": [
+      "Knowledge"
+    ],
+    "@wangshunnn/bilibili-mcp-server": [
+      "Media & Documentation"
+    ],
+    "kitty-coffee-test": [
+      "Business & Commerce"
+    ],
+    "qr-mcp-service": [
+      "Media & Documentation"
+    ],
+    "@googlemaps/code-assist-mcp": [
+      "Knowledge"
+    ],
+    "@heroui/react-mcp": [
+      "Design & UI Components"
+    ],
+    "shadcn-ui-mcp-server": [
+      "Design & UI Components"
+    ],
+    "@oevortex/ddg_search": [
+      "Research"
+    ],
+    "ableton-copilot-mcp": [
+      "Specialized Domains"
+    ],
+    "mp3-mcp-server": [
+      "Specialized Domains"
+    ],
+    "@dooi/context101": [
+      "Knowledge"
+    ],
+    "word-document-server": [
+      "Media & Documentation"
+    ],
+    "@hugeicons/mcp-server": [
+      "Design & UI Components"
+    ],
+    "giisp-openlibrary-mcp": [
+      "Knowledge"
+    ],
+    "mermaid-mcp-server": [
+      "Media & Documentation"
+    ],
+    "mcp-server-weibo": [
+      "Research"
+    ],
+    "mindmap": [
+      "Media & Documentation"
+    ],
+    "mcp-calculator": [
+      "Data & Analytics"
+    ],
+    "derived-mcp-server": [
+      "Business & Commerce"
+    ],
+    "@regle/mcp-server": [
+      "Development Tools"
+    ],
+    "original_from_tina": [
+      "Business & Commerce"
+    ],
+    "12306-mcp": [
+      "Business & Commerce"
+    ],
+    "mcp-crypto-price": [
+      "Business & Commerce"
+    ],
+    "@railway/mcp-server": [
+      "Cloud & Infrastructure"
+    ],
+    "@j0kz/orchestrator-mcp": [
+      "AI & Machine Learning"
+    ],
+    "wikipedia-mcp": [
+      "Knowledge"
+    ],
+    "metmuseum-mcp": [
+      "Knowledge"
+    ],
+    "interactive-mcp": [
+      "Development Tools"
+    ],
+    "weather": [
+      "Research"
+    ],
+    "@bharathvaj/whois-mcp": [
+      "Research"
+    ],
+    "@aashari/boilerplate-mcp-server": [
+      "Development Tools"
+    ],
+    "@flipt-io/mcp-server-flipt": [
+      "Development Tools"
+    ],
+    "mcp-server-mysql": [
+      "Data & Analytics"
+    ],
+    "@prismicio/mcp-server": [
+      "Business & Commerce"
+    ],
+    "mcp-sequentialthinking-tools": [
+      "AI & Machine Learning"
+    ],
+    "xcomet-mcp-server": [
+      "AI & Machine Learning"
+    ],
+    "@nekzus/mcp-server": [
+      "Research"
+    ],
+    "@tejasanik/postgres-mcp-server": [
+      "Data & Analytics"
+    ],
+    "saleskit-mcp": [
+      "Business & Commerce"
+    ],
+    "mcp-server-code-runner": [
+      "Development Tools"
+    ],
+    "@driflyte/mcp-server": [
+      "Development Tools"
+    ],
+    "supergateway": [
+      "Cloud & Infrastructure"
+    ],
+    "@agent-infra/mcp-server-browser": [
+      "Research"
+    ],
+    "mcp-weather-demo": [
+      "Research"
+    ],
+    "@wordbricks/fetch-mcp": [
+      "Research"
+    ],
+    "@karashiiro/exchange-rate-mcp": [
+      "Business & Commerce"
+    ],
+    "basic-memory": [
+      "AI & Machine Learning"
+    ],
+    "@veloxts/mcp": [
+      "Development Tools"
+    ],
+    "mcp-shrimp-task-manager": [
+      "Development Tools"
+    ],
+    "@modelcontextprotocol/server-sequential-thinking": [
+      "AI & Machine Learning"
+    ],
+    "twitterapi-io-mcp": [
+      "Research"
+    ],
+    "@magicuidesign/mcp": [
+      "Design & UI Components"
+    ],
+    "@j0kz/smart-reviewer-mcp": [
+      "Development Tools"
+    ],
+    "@upstash/context7-mcp": [
+      "AI & Machine Learning"
+    ],
+    "wuwa-mcp": [
+      "Specialized Domains"
+    ],
+    "@reuvenorg/shadcn-registry-manager": [
+      "Design & UI Components"
+    ],
+    "ygocdb-mcp-server": [
+      "Knowledge"
+    ],
+    "@modelcontextprotocol/server-memory": [
+      "AI & Machine Learning"
+    ],
+    "flowbite-mcp": [
+      "Design & UI Components"
+    ],
+    "@idachev/mcp-javadc": [
+      "Development Tools"
+    ],
+    "calculator": [
+      "Data & Analytics"
+    ],
+    "math-mcp": [
+      "Data & Analytics"
+    ],
+    "edgeone-pages-mcp": [
+      "Cloud & Infrastructure"
+    ],
+    "@kazuph/mcp-youtube": [
+      "Media & Documentation"
+    ],
+    "@primevue/mcp": [
+      "Design & UI Components"
+    ],
+    "maya-mcp-server": [
+      "Specialized Domains"
+    ],
+    "mcp-simple-arxiv": [
+      "Knowledge"
+    ],
+    "dexpaprika-mcp": [
+      "Business & Commerce"
+    ],
+    "mcp-tasks": [
+      "Development Tools"
+    ],
+    "mcp-security-audit": [
+      "Development Tools"
+    ],
+    "artic-mcp": [
+      "Knowledge"
+    ],
+    "@xiaolaa2/ableton-copilot-mcp": [
+      "Specialized Domains"
+    ],
+    "@primeng/mcp": [
+      "Design & UI Components"
+    ],
+    "@voltagent/docs-mcp": [
+      "Knowledge"
+    ],
+    "mcp-image-extractor": [
+      "Media & Documentation"
+    ],
+    "@su-record/hi-gcloud": [
+      "Cloud & Infrastructure"
+    ],
+    "@botanicastudios/crossref-mcp": [
+      "Knowledge"
+    ],
+    "@microsoft/m365agentstoolkit-mcp": [
+      "Business & Commerce"
+    ],
+    "@likec4/mcp": [
+      "Design & UI Components"
+    ],
+    "docuking-mcp": [
+      "Business & Commerce"
+    ],
+    "git": [
+      "Development Tools"
+    ],
+    "howtocook-mcp": [
+      "Knowledge"
+    ],
+    "duckpond-mcp-server": [
+      "Data & Analytics"
+    ],
+    "@nbakka/mcp-appium": [
+      "Development Tools"
+    ],
+    "@executeautomation/playwright-mcp-server": [
+      "Development Tools"
+    ],
+    "mcp-server-commands": [
+      "Development Tools"
+    ],
+    "metatag-genie": [
+      "Media & Documentation"
+    ],
+    "@tsmztech/mcp-server-salesforce": [
+      "Business & Commerce"
+    ],
+    "@just-every/mcp-read-website-fast": [
+      "Research"
+    ],
+    "claude-faf-mcp": [
+      "Development Tools"
+    ],
+    "@assistant-ui/mcp-docs-server": [
+      "Knowledge"
+    ],
+    "@wonderwhy-er/desktop-commander": [
+      "Development Tools"
+    ],
+    "@antv/mcp-server-chart": [
+      "Data & Analytics"
+    ],
+    "fetcher-mcp": [
+      "Research"
+    ],
+    "pantheon-mcp": [
+      "AI & Machine Learning"
+    ],
+    "@guanxiong/mcp-server-time": [
+      "Research"
+    ],
+    "bytefun-ai-mcp": [
+      "Design & UI Components"
+    ],
+    "@nilsir/mcp-server-mysql": [
+      "Data & Analytics"
+    ],
+    "coffee-mcp-agent": [
+      "Business & Commerce"
+    ],
+    "@henkey/postgres-mcp-server": [
+      "Data & Analytics"
+    ],
+    "mcp-postgres-server": [
+      "Data & Analytics"
+    ],
+    "duckduckgo-mcp-server": [
+      "Research"
+    ],
+    "swiftipedia-mcp-server": [
+      "Knowledge"
+    ],
+    "@nekzus/npm-sentinel-mcp": [
+      "Development Tools"
+    ],
+    "osm-mcp-server": [
+      "Knowledge"
+    ],
+    "mcp-maven-deps": [
+      "Development Tools"
+    ],
+    "@modelcontextprotocol/server-filesystem": [
+      "Development Tools"
+    ],
+    "@remotion/mcp": [
+      "Media & Documentation"
+    ],
+    "@pinepaper.studio/mcp-server": [
+      "Media & Documentation"
+    ],
+    "@openbnb/mcp-server-airbnb": [
+      "Business & Commerce"
+    ],
+    "@agent-infra/mcp-server-commands": [
+      "Development Tools"
+    ],
+    "ppt": [
+      "Media & Documentation"
+    ],
+    "@rtuin/mcp-mermaid-validator": [
+      "Media & Documentation"
+    ],
+    "@pimzino/agentic-tools-mcp": [
+      "AI & Machine Learning"
+    ],
+    "mcp-tung-shing": [
+      "Knowledge"
+    ],
+    "meme-mcp": [
+      "Media & Documentation"
+    ],
+    "mcp-trends-hub": [
+      "Research"
+    ],
+    "mcp-deepwiki": [
+      "Knowledge"
+    ],
+    "next-devtools-mcp": [
+      "Development Tools"
+    ],
+    "time-mcp": [
+      "Research"
+    ],
+    "@pimzino/spec-workflow-mcp": [
+      "Development Tools"
+    ],
+    "@cablate/mcp-doc-forge": [
+      "Media & Documentation"
+    ],
+    "@andrebuzeli/spec-mcp-tools": [
+      "Development Tools"
+    ],
+    "@gongrzhe/quickchart-mcp-server": [
+      "Data & Analytics"
+    ],
+    "mcp-knowledge-graph": [
+      "AI & Machine Learning"
+    ],
+    "@taiga-ui/mcp": [
+      "Design & UI Components"
+    ],
+    "@macroforge/mcp-server": [
+      "Development Tools"
+    ],
+    "plantuml-mcp-server": [
+      "Media & Documentation"
+    ],
+    "@knip/mcp": [
+      "Development Tools"
+    ],
+    "midnight-mcp": [
+      "Data & Analytics"
+    ],
+    "@next-ai-drawio/mcp-server": [
+      "Media & Documentation"
+    ],
+    "@sparrowengg/twigs-ai-mcp": [
+      "Design & UI Components"
+    ],
+    "vrchat-mcp": [
+      "Specialized Domains"
+    ],
+    "pabal-web-mcp": [
+      "Business & Commerce"
+    ],
+    "@aiuluna/knowledge-graph-mcp": [
+      "AI & Machine Learning"
+    ],
+    "@negokaz/excel-mcp-server": [
+      "Media & Documentation"
+    ],
+    "@gelenlen/playwright-mcp-server-security": [
+      "Development Tools"
+    ],
+    "@iress-oss/ids-mcp-server": [
+      "Design & UI Components"
+    ],
+    "mcp-echarts": [
+      "Data & Analytics"
+    ],
+    "mcp-docs-service": [
+      "Knowledge"
+    ],
+    "mcp-ai-agent-guidelines": [
+      "AI & Machine Learning"
+    ],
+    "@umengfe/mcp-server-chart": [
+      "Data & Analytics"
+    ],
+    "arxiv-mcp-server": [
+      "Knowledge"
+    ],
+    "@sylphx/pdf-reader-mcp": [
+      "Media & Documentation"
+    ],
+    "@kazuph/mcp-taskmanager": [
+      "Development Tools"
+    ],
+    "@byronwade/memoria": [
+      "AI & Machine Learning"
+    ],
+    "@praha/byethrow-mcp": [
+      "Development Tools"
+    ],
+    "malicious-mcp-server": [
+      "Development Tools"
+    ]
+  }
+}
