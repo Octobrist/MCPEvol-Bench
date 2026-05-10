@@ -85,11 +85,11 @@ MCPEvol-Bench/
 
 ## Quick start
 
-Run Python commands from the **`src`** directory so package imports resolve (`custom.*`).
+Tasks in MCPEvol-Bench/src/custom/data/test_cases/test_cases.json
 
 ### 1. Prepare MCP server bundles
 
-Unpack the server archives under `servers/` (example for `iter3`; adjust names to match your archives).
+Download [Evoluation Servers](https://huggingface.co/datasets/anonymous2233/evol-servers); Unpack the server archives under `servers/` (example for `iter3`; adjust names to match your archives).
 
 ```bash
 cd servers
