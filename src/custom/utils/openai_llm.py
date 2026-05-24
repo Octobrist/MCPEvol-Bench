@@ -42,10 +42,6 @@ def chat_with_openai(
     """
     # 创建客户端，base_url 可为 None（使用默认）
     client = OpenAI(api_key=api_key, base_url=base_url)
-
-    # os.environ['HTTP_PROXY'] = '99.72.0.200:3138'
-    # os.environ['HTTPS_PROXY'] = '99.72.0.200:3138'
-    # os.environ['HTTPS_PROXY'] = '12.8.3.205:3138'
     try:
         response = client.chat.completions.create(
             model=model,
