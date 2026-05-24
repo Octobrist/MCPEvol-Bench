@@ -63,22 +63,6 @@ def chat_with_openai(
 OLLAMA_URL = "http://localhost:11434/api/chat"
 DEFAULT_MODEL = "gpt-oss:120b"
 
-# ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEME+c41Jc2J7sQRChnqj+5A8F80LPg4W5r4Zb2M4u35
-# export OLLAMA_MODELS=/GLOBALFS/nudt_dwfeng_1/.bihu/qpf/chat/model
-# ollama serve
-# def call_ollama(prompt: str, model: str=DEFAULT_MODEL, timeout: int = 120) -> str:
-#     try:
-#         response: ChatResponse = chat(model=model, messages=[
-#             {
-#                 'role': 'user',
-#                 'content': prompt,
-#             },
-#         ])
-#
-#         return response["message"]["content"]
-#     except Exception as e:
-#         return f"ERROR: {str(e)}"
-
 def get_worker_address(model_name, controller_address="http://0.0.0.0:21001"):
     controller_addr = controller_address
     ret = requests.post(controller_addr + "/refresh_all_workers")
