@@ -16,8 +16,7 @@ from FastChat.fastchat.conversation import get_conv_template
 from requests.exceptions import Timeout, ConnectionError
 
 
-api_key = 'sk-lM5LaCUWUMUfmcTcX47YDit9YOtXnIm19DAZPo5pILZx8U4f'
-# api_key = 'sk-6dXGHo7A8AmKGRNUSRgqlaNhoRW6Hge5kzJUWXz55ctyuS5T'
+api_key = 'sk-xxxxx'
 base_url = 'https://api.huiyan-ai.cn/v1'
 
 def chat_with_openai(
